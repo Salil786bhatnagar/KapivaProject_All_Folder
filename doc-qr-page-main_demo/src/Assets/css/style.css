@@ -1,0 +1,47 @@
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.main {
+  background-image: url("../img/qr-desktop-background.png");
+  background-size: 100% 100%;
+}
+
+.row {
+  display: grid !important;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 20%;
+}
+
+.form-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2%;
+}
+
+/* add first name validation */
+p.p-firstname {
+  margin-right: 84%;
+  font-size: small;
+  color: #7a5252;
+  width: 100%;
+  margin: 1px;
+}
+/* add email validation */
+p.p-email {
+  margin-right: 70%;
+  font-size: small;
+  color: red;
+  width: 100%;
+  margin: 1px;
+  color: #7a5252;
+}
+/* add number validation */
+p.p-number{
+  margin-right: 70%;
+  font-size: small;
+  color: red;
+  width: 100%;
+  margin: 1px;
+  color: #7a5252;
+}
